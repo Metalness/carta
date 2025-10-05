@@ -1,0 +1,520 @@
+fileFormatVersion: 2
+guid: b2ebfda7b8a07eb47b0a5c6d9898714f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6813331523492771831
+    second: ink bottle attack 1 charge 2.0_0
+  - first:
+      213: -8976624449949488700
+    second: ink bottle attack 1 charge 2.0_1
+  - first:
+      213: -2388021448653943481
+    second: ink bottle attack 1 charge 2.0_2
+  - first:
+      213: 7133048931817357194
+    second: ink bottle attack 1 charge 2.0_3
+  - first:
+      213: 1894004945671203338
+    second: ink bottle attack 1 charge 2.0_4
+  - first:
+      213: 4266062809685654061
+    second: ink bottle attack 1 charge 2.0_5
+  - first:
+      213: 7300802894318325533
+    second: ink bottle attack 1 charge 2.0_6
+  - first:
+      213: -4913623606432331654
+    second: ink bottle attack 1 charge 2.0_7
+  - first:
+      213: -3736795648655132561
+    second: ink bottle attack 1 charge 2.0_8
+  - first:
+      213: -9208221405283507370
+    second: ink bottle attack 1 charge 2.0_9
+  - first:
+      213: 7365247308532122292
+    second: ink bottle attack 1 charge 2.0_10
+  - first:
+      213: -9150796766455837162
+    second: ink bottle attack 1 charge 2.0_11
+  - first:
+      213: -3351848178546117713
+    second: ink bottle attack 1 charge 2.0_12
+  - first:
+      213: -468839469429512104
+    second: ink bottle attack 1 charge 2.0_13
+  - first:
+      213: 1459093824065549881
+    second: ink bottle attack 1 charge 2.0_14
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ink bottle attack 1 charge 2.0_0
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 563
+        width: 423
+        height: 578
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f7f1ca0ce0dd8e50800000000000000
+      internalID: 6813331523492771831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ink bottle attack 1 charge 2.0_1
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 555
+        width: 453
+        height: 573
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c9acaa7f9f9c6380800000000000000
+      internalID: -8976624449949488700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ink bottle attack 1 charge 2.0_2
+      rect:
+        serializedVersion: 2
+        x: 1325
+        y: 554
+        width: 461
+        height: 643
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74dc7fc052b0cded0800000000000000
+      internalID: -2388021448653943481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ink bottle attack 1 charge 2.0_3
+      rect:
+        serializedVersion: 2
+        x: 1871
+        y: 562
+        width: 584
+        height: 511
+      alignment: 9
+      pivot: {x: 0.5103534, y: 0.55916184}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8ff372063eadf260800000000000000
+      internalID: 7133048931817357194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ink bottle attack 1 charge 2.0_4
+      rect:
+        serializedVersion: 2
+        x: 2557
+        y: 560
+        width: 560
+        height: 370
+      alignment: 9
+      pivot: {x: 0.4838039, y: 0.6307315}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0aa095967bd84a10800000000000000
+      internalID: 1894004945671203338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ink bottle attack 1 charge 2.0_5
+      rect:
+        serializedVersion: 2
+        x: 3163
+        y: 562
+        width: 581
+        height: 364
+      alignment: 9
+      pivot: {x: 0.505203, y: 0.6411919}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2a71d8d589143b30800000000000000
+      internalID: 4266062809685654061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ink bottle attack 1 charge 2.0_6
+      rect:
+        serializedVersion: 2
+        x: 3797
+        y: 563
+        width: 568
+        height: 371
+      alignment: 9
+      pivot: {x: 0.5212892, y: 0.6222305}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1fccf21d89a15560800000000000000
+      internalID: 7300802894318325533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ink bottle attack 1 charge 2.0_7
+      rect:
+        serializedVersion: 2
+        x: 4526
+        y: 566
+        width: 445
+        height: 361
+      alignment: 9
+      pivot: {x: 0.5, y: 0.62561625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7880aa0d5d4fcbb0800000000000000
+      internalID: -4913623606432331654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ink bottle attack 1 charge 2.0_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 52
+        width: 605
+        height: 348
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6911204}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f687fabe72c342cc0800000000000000
+      internalID: -3736795648655132561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ink bottle attack 1 charge 2.0_9
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 1
+        width: 614
+        height: 409
+      alignment: 9
+      pivot: {x: 0.5, y: 0.68479055}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 653adec4b63d53080800000000000000
+      internalID: -9208221405283507370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ink bottle attack 1 charge 2.0_10
+      rect:
+        serializedVersion: 2
+        x: 1446
+        y: 0
+        width: 605
+        height: 394
+      alignment: 9
+      pivot: {x: 0.5, y: 0.63811445}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b285f3876d963660800000000000000
+      internalID: 7365247308532122292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ink bottle attack 1 charge 2.0_11
+      rect:
+        serializedVersion: 2
+        x: 2186
+        y: 33
+        width: 579
+        height: 364
+      alignment: 9
+      pivot: {x: 0.49999958, y: 0.68271905}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61e4b9be2d6d10180800000000000000
+      internalID: -9150796766455837162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ink bottle attack 1 charge 2.0_12
+      rect:
+        serializedVersion: 2
+        x: 2899
+        y: 11
+        width: 623
+        height: 391
+      alignment: 9
+      pivot: {x: 0.4999996, y: 0.6546377}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa3f7b827d7db71d0800000000000000
+      internalID: -3351848178546117713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ink bottle attack 1 charge 2.0_13
+      rect:
+        serializedVersion: 2
+        x: 3629
+        y: 13
+        width: 600
+        height: 370
+      alignment: 9
+      pivot: {x: 0.49999958, y: 0.63073105}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 858a8ff8cf85e79f0800000000000000
+      internalID: -468839469429512104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ink bottle attack 1 charge 2.0_14
+      rect:
+        serializedVersion: 2
+        x: 3996
+        y: 380
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 936b4653a1ebf3410800000000000000
+      internalID: 1459093824065549881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: eb6d532cb6023d94abe2843ce26743a5
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ink bottle attack 1 charge 2.0_0: 6813331523492771831
+      ink bottle attack 1 charge 2.0_1: -8976624449949488700
+      ink bottle attack 1 charge 2.0_10: 7365247308532122292
+      ink bottle attack 1 charge 2.0_11: -9150796766455837162
+      ink bottle attack 1 charge 2.0_12: -3351848178546117713
+      ink bottle attack 1 charge 2.0_13: -468839469429512104
+      ink bottle attack 1 charge 2.0_14: 1459093824065549881
+      ink bottle attack 1 charge 2.0_2: -2388021448653943481
+      ink bottle attack 1 charge 2.0_3: 7133048931817357194
+      ink bottle attack 1 charge 2.0_4: 1894004945671203338
+      ink bottle attack 1 charge 2.0_5: 4266062809685654061
+      ink bottle attack 1 charge 2.0_6: 7300802894318325533
+      ink bottle attack 1 charge 2.0_7: -4913623606432331654
+      ink bottle attack 1 charge 2.0_8: -3736795648655132561
+      ink bottle attack 1 charge 2.0_9: -9208221405283507370
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,442 @@
+fileFormatVersion: 2
+guid: e39442dc8a1f1104d86b07fc00d45c6c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3721813625937699095
+    second: stapler 2.1_0
+  - first:
+      213: 2994508636759590917
+    second: stapler 2.1_1
+  - first:
+      213: 464850153998111356
+    second: stapler 2.1_2
+  - first:
+      213: -7120848139592164848
+    second: stapler 2.1_3
+  - first:
+      213: -5788111935199969179
+    second: stapler 2.1_4
+  - first:
+      213: 1081891019107650322
+    second: stapler 2.1_5
+  - first:
+      213: 1815951835860422408
+    second: stapler 2.1_6
+  - first:
+      213: 2061070011748711081
+    second: stapler 2.1_7
+  - first:
+      213: -9100757059123279207
+    second: stapler 2.1_8
+  - first:
+      213: 1665074169348886632
+    second: stapler 2.1_9
+  - first:
+      213: 140294919104299523
+    second: stapler 2.1_10
+  - first:
+      213: -9136097763651200190
+    second: stapler 2.1_11
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: stapler 2.1_0
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 2667
+        width: 1131
+        height: 658
+      alignment: 9
+      pivot: {x: 0.52258426, y: 0.11181195}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ee56c9e936795cc0800000000000000
+      internalID: -3721813625937699095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stapler 2.1_1
+      rect:
+        serializedVersion: 2
+        x: 1541
+        y: 2646
+        width: 1122
+        height: 563
+      alignment: 9
+      pivot: {x: 0.50000024, y: 0.07655565}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50805e25db1ae8920800000000000000
+      internalID: 2994508636759590917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stapler 2.1_2
+      rect:
+        serializedVersion: 2
+        x: 2904
+        y: 2675
+        width: 1106
+        height: 527
+      alignment: 9
+      pivot: {x: 0.5115477, y: 0.09609829}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c72d7de80ca737600800000000000000
+      internalID: 464850153998111356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stapler 2.1_3
+      rect:
+        serializedVersion: 2
+        x: 4165
+        y: 2664
+        width: 1095
+        height: 525
+      alignment: 9
+      pivot: {x: 0.5000004, y: 0.07834171}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01a9b1c485aad2d90800000000000000
+      internalID: -7120848139592164848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stapler 2.1_4
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 1654
+        width: 1103
+        height: 500
+      alignment: 9
+      pivot: {x: 0.49614045, y: 0.06577222}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56005369cde7cafa0800000000000000
+      internalID: -5788111935199969179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stapler 2.1_5
+      rect:
+        serializedVersion: 2
+        x: 1568
+        y: 1635
+        width: 1102
+        height: 484
+      alignment: 9
+      pivot: {x: 0.51158935, y: 0.104192816}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21bc8975626a30f00800000000000000
+      internalID: 1081891019107650322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stapler 2.1_6
+      rect:
+        serializedVersion: 2
+        x: 2938
+        y: 1625
+        width: 1106
+        height: 459
+      alignment: 9
+      pivot: {x: 0.49230206, y: 0.15683323}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80fcda9c29e833910800000000000000
+      internalID: 1815951835860422408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stapler 2.1_7
+      rect:
+        serializedVersion: 2
+        x: 4174
+        y: 1666
+        width: 1106
+        height: 455
+      alignment: 9
+      pivot: {x: 0.48845255, y: 0.12574717}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9aafd7371446a9c10800000000000000
+      internalID: 2061070011748711081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stapler 2.1_8
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 470
+        width: 1131
+        height: 715
+      alignment: 9
+      pivot: {x: 0.48494387, y: 0.12489637}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99a04df2cad93b180800000000000000
+      internalID: -9100757059123279207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stapler 2.1_9
+      rect:
+        serializedVersion: 2
+        x: 1489
+        y: 505
+        width: 1073
+        height: 838
+      alignment: 9
+      pivot: {x: 0.4920651, y: 0.083430834}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86018b492288b1710800000000000000
+      internalID: 1665074169348886632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stapler 2.1_10
+      rect:
+        serializedVersion: 2
+        x: 2984
+        y: 316
+        width: 1086
+        height: 928
+      alignment: 9
+      pivot: {x: 0.5039202, y: 0.06878222}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30201015c7d62f100800000000000000
+      internalID: 140294919104299523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stapler 2.1_11
+      rect:
+        serializedVersion: 2
+        x: 4217
+        y: 398
+        width: 1150
+        height: 752
+      alignment: 9
+      pivot: {x: 0.5000004, y: 0.041452773}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24b54543d7f063180800000000000000
+      internalID: -9136097763651200190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 57e76862aac761d40948f33780916965
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      stapler 2.1_0: -3721813625937699095
+      stapler 2.1_1: 2994508636759590917
+      stapler 2.1_10: 140294919104299523
+      stapler 2.1_11: -9136097763651200190
+      stapler 2.1_2: 464850153998111356
+      stapler 2.1_3: -7120848139592164848
+      stapler 2.1_4: -5788111935199969179
+      stapler 2.1_5: 1081891019107650322
+      stapler 2.1_6: 1815951835860422408
+      stapler 2.1_7: 2061070011748711081
+      stapler 2.1_8: -9100757059123279207
+      stapler 2.1_9: 1665074169348886632
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

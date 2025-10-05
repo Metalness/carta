@@ -1,0 +1,338 @@
+fileFormatVersion: 2
+guid: bc8d267e05d78134195079e8603ae0f6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6903905100267602944
+    second: stapler 2.1 firing_0
+  - first:
+      213: -6649667913443895759
+    second: stapler 2.1 firing_1
+  - first:
+      213: 3887775250962780737
+    second: stapler 2.1 firing_2
+  - first:
+      213: 1670736007866387975
+    second: stapler 2.1 firing_3
+  - first:
+      213: -8543542410685295328
+    second: stapler 2.1 firing_4
+  - first:
+      213: -2386798712946667700
+    second: stapler 2.1 firing_5
+  - first:
+      213: 5194741801512092961
+    second: stapler 2.1 firing_6
+  - first:
+      213: -786984378196109632
+    second: stapler 2.1 firing_7
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: stapler 2.1 firing_0
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 2666
+        width: 1126
+        height: 659
+      alignment: 9
+      pivot: {x: 0.51890385, y: 0.1059411}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00445783c199fcf50800000000000000
+      internalID: 6903905100267602944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stapler 2.1 firing_1
+      rect:
+        serializedVersion: 2
+        x: 1746
+        y: 2623
+        width: 1065
+        height: 754
+      alignment: 9
+      pivot: {x: 0.511992, y: 0.10477583}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1361dd0a342a7b3a0800000000000000
+      internalID: -6649667913443895759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stapler 2.1 firing_2
+      rect:
+        serializedVersion: 2
+        x: 3217
+        y: 2668
+        width: 1065
+        height: 807
+      alignment: 9
+      pivot: {x: 0.49600297, y: 0.051603522}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14211301ef624f530800000000000000
+      internalID: 3887775250962780737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stapler 2.1 firing_3
+      rect:
+        serializedVersion: 2
+        x: 4602
+        y: 2500
+        width: 1065
+        height: 1001
+      alignment: 9
+      pivot: {x: 0.49600297, y: 0.066206746}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70e84561c85af2710800000000000000
+      internalID: 1670736007866387975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stapler 2.1 firing_4
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 1413
+        width: 1065
+        height: 1221
+      alignment: 9
+      pivot: {x: 0.49200538, y: 0.050229684}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0255e9f617d3f6980800000000000000
+      internalID: -8543542410685295328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stapler 2.1 firing_5
+      rect:
+        serializedVersion: 2
+        x: 1705
+        y: 1318
+        width: 1091
+        height: 1303
+      alignment: 9
+      pivot: {x: 0.492196, y: 0.058931574}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4f4474673360eed0800000000000000
+      internalID: -2386798712946667700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stapler 2.1 firing_6
+      rect:
+        serializedVersion: 2
+        x: 3166
+        y: 1344
+        width: 1193
+        height: 1295
+      alignment: 9
+      pivot: {x: 0.48929507, y: 0.046344582}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1254003452e671840800000000000000
+      internalID: 5194741801512092961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stapler 2.1 firing_7
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 93
+        width: 1192
+        height: 1296
+      alignment: 9
+      pivot: {x: 0.49642867, y: 0.049979117}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c6d6dda0e11415f0800000000000000
+      internalID: -786984378196109632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5bc0fc2be2191d541ab264497d91e96d
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      stapler 2.1 firing_0: 6903905100267602944
+      stapler 2.1 firing_1: -6649667913443895759
+      stapler 2.1 firing_2: 3887775250962780737
+      stapler 2.1 firing_3: 1670736007866387975
+      stapler 2.1 firing_4: -8543542410685295328
+      stapler 2.1 firing_5: -2386798712946667700
+      stapler 2.1 firing_6: 5194741801512092961
+      stapler 2.1 firing_7: -786984378196109632
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,520 @@
+fileFormatVersion: 2
+guid: cdaedc896c3334d4fb2e252b93988eec
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4145434944337983394
+    second: paper turning into a ball_0
+  - first:
+      213: 4306975919739990068
+    second: paper turning into a ball_1
+  - first:
+      213: -8047230978493481989
+    second: paper turning into a ball_2
+  - first:
+      213: 8941369472742248322
+    second: paper turning into a ball_3
+  - first:
+      213: -5984046965645884192
+    second: paper turning into a ball_4
+  - first:
+      213: -6349388693918804889
+    second: paper turning into a ball_5
+  - first:
+      213: -5445542837332255131
+    second: paper turning into a ball_6
+  - first:
+      213: 4693525503664644691
+    second: paper turning into a ball_7
+  - first:
+      213: 6520875487617089040
+    second: paper turning into a ball_8
+  - first:
+      213: -948369775128830834
+    second: paper turning into a ball_9
+  - first:
+      213: -1235706691418364969
+    second: paper turning into a ball_10
+  - first:
+      213: 697682301439209273
+    second: paper turning into a ball_11
+  - first:
+      213: 5429399396268689612
+    second: paper turning into a ball_12
+  - first:
+      213: 8338696312568636022
+    second: paper turning into a ball_13
+  - first:
+      213: -2863674607963155310
+    second: paper turning into a ball_14
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: paper turning into a ball_0
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 2323
+        width: 1033
+        height: 381
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e584e3fa1e47876c0800000000000000
+      internalID: -4145434944337983394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: paper turning into a ball_1
+      rect:
+        serializedVersion: 2
+        x: 1529
+        y: 2317
+        width: 1032
+        height: 442
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 430734897c375cb30800000000000000
+      internalID: 4306975919739990068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: paper turning into a ball_2
+      rect:
+        serializedVersion: 2
+        x: 2819
+        y: 2405
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfb7065af0e725090800000000000000
+      internalID: -8047230978493481989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: paper turning into a ball_3
+      rect:
+        serializedVersion: 2
+        x: 2855
+        y: 2410
+        width: 1100
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28fc25c7920261c70800000000000000
+      internalID: 8941369472742248322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: paper turning into a ball_4
+      rect:
+        serializedVersion: 2
+        x: 4259
+        y: 2403
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e44c655df464fca0800000000000000
+      internalID: -5984046965645884192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: paper turning into a ball_5
+      rect:
+        serializedVersion: 2
+        x: 4295
+        y: 2408
+        width: 1199
+        height: 519
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76496169f9072e7a0800000000000000
+      internalID: -6349388693918804889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: paper turning into a ball_6
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 1466
+        width: 1001
+        height: 619
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56e53a324ab8d64b0800000000000000
+      internalID: -5445542837332255131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: paper turning into a ball_7
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 1600
+        width: 918
+        height: 473
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 352ea260490c22140800000000000000
+      internalID: 4693525503664644691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: paper turning into a ball_8
+      rect:
+        serializedVersion: 2
+        x: 2702
+        y: 1618
+        width: 935
+        height: 547
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01ef7f7f4bdce7a50800000000000000
+      internalID: 6520875487617089040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: paper turning into a ball_9
+      rect:
+        serializedVersion: 2
+        x: 4242
+        y: 1547
+        width: 782
+        height: 684
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8c9ab5d6b6b6d2f0800000000000000
+      internalID: -948369775128830834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: paper turning into a ball_10
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 506
+        width: 833
+        height: 750
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d36f6baf43e9dee0800000000000000
+      internalID: -1235706691418364969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: paper turning into a ball_11
+      rect:
+        serializedVersion: 2
+        x: 1613
+        y: 725
+        width: 794
+        height: 730
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93f6c5f4b5aaea900800000000000000
+      internalID: 697682301439209273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: paper turning into a ball_12
+      rect:
+        serializedVersion: 2
+        x: 3012
+        y: 669
+        width: 808
+        height: 721
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc8c0561cf9195b40800000000000000
+      internalID: 5429399396268689612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: paper turning into a ball_13
+      rect:
+        serializedVersion: 2
+        x: 4308
+        y: 748
+        width: 660
+        height: 644
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6726380bd1009b370800000000000000
+      internalID: 8338696312568636022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: paper turning into a ball_14
+      rect:
+        serializedVersion: 2
+        x: 5348
+        y: 889
+        width: 472
+        height: 444
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 294dc00dd1f2248d0800000000000000
+      internalID: -2863674607963155310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      paper turning into a ball_0: -4145434944337983394
+      paper turning into a ball_1: 4306975919739990068
+      paper turning into a ball_10: -1235706691418364969
+      paper turning into a ball_11: 697682301439209273
+      paper turning into a ball_12: 5429399396268689612
+      paper turning into a ball_13: 8338696312568636022
+      paper turning into a ball_14: -2863674607963155310
+      paper turning into a ball_2: -8047230978493481989
+      paper turning into a ball_3: 8941369472742248322
+      paper turning into a ball_4: -5984046965645884192
+      paper turning into a ball_5: -6349388693918804889
+      paper turning into a ball_6: -5445542837332255131
+      paper turning into a ball_7: 4693525503664644691
+      paper turning into a ball_8: 6520875487617089040
+      paper turning into a ball_9: -948369775128830834
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

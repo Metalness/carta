@@ -1,0 +1,268 @@
+fileFormatVersion: 2
+guid: 001235c86470b8d499c311593d7ddc63
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3954114009499384113
+    second: priter puking 2_0
+  - first:
+      213: 4795549230382480332
+    second: priter puking 2_1
+  - first:
+      213: -2857388561611275723
+    second: priter puking 2_2
+  - first:
+      213: -152774977748493804
+    second: priter puking 2_3
+  - first:
+      213: 1806449695323891578
+    second: priter puking 2_4
+  - first:
+      213: -1689970998583889774
+    second: priter puking 2_5
+  - first:
+      213: 7683020713177152202
+    second: priter puking 2_6
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: priter puking 2_0
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 2315
+        width: 1261
+        height: 960
+      alignment: 9
+      pivot: {x: 0.5242378, y: 0.30543926}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc6c466124a2029c0800000000000000
+      internalID: -3954114009499384113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: priter puking 2_1
+      rect:
+        serializedVersion: 2
+        x: 1644
+        y: 2276
+        width: 1261
+        height: 960
+      alignment: 9
+      pivot: {x: 0.5134657, y: 0.32666397}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccb78dbfd963d8240800000000000000
+      internalID: 4795549230382480332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: priter puking 2_2
+      rect:
+        serializedVersion: 2
+        x: 3220
+        y: 2296
+        width: 1261
+        height: 960
+      alignment: 9
+      pivot: {x: 0.5350103, y: 0.31251398}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53245e70e348858d0800000000000000
+      internalID: -2857388561611275723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: priter puking 2_3
+      rect:
+        serializedVersion: 2
+        x: 4822
+        y: 2069
+        width: 1261
+        height: 1151
+      alignment: 9
+      pivot: {x: 0.52962446, y: 0.41738713}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41a9bb897fb31edf0800000000000000
+      internalID: -152774977748493804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: priter puking 2_6
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 450
+        width: 1261
+        height: 1546
+      alignment: 9
+      pivot: {x: 0.49461386, y: 0.58786505}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aca74ead1a29f9a60800000000000000
+      internalID: 7683020713177152202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: e915a03cbebc5a644959b3f6d6b2ac71
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      priter puking 2_0: -3954114009499384113
+      priter puking 2_1: 4795549230382480332
+      priter puking 2_2: -2857388561611275723
+      priter puking 2_3: -152774977748493804
+      priter puking 2_4: 1806449695323891578
+      priter puking 2_5: -1689970998583889774
+      priter puking 2_6: 7683020713177152202
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

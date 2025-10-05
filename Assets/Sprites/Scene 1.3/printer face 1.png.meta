@@ -1,0 +1,426 @@
+fileFormatVersion: 2
+guid: d5016c8f9ea88aa4eb7ae5b442289a87
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1987807450402566217
+    second: printer face 1_0
+  - first:
+      213: -6976250298015614328
+    second: printer face 1_1
+  - first:
+      213: 8331739571384271494
+    second: printer face 1_2
+  - first:
+      213: -6174068264970933434
+    second: printer face 1_3
+  - first:
+      213: 7276560444080852261
+    second: printer face 1_4
+  - first:
+      213: -8193725541170345582
+    second: printer face 1_5
+  - first:
+      213: -3167978842042741250
+    second: printer face 1_6
+  - first:
+      213: 8310983117831085658
+    second: printer face 1_7
+  - first:
+      213: -2181184492038693385
+    second: printer face 1_8
+  - first:
+      213: 880000049200959207
+    second: printer face 1_9
+  - first:
+      213: 4818411848851044162
+    second: printer face 1_10
+  - first:
+      213: -7786449439219195996
+    second: printer face 1_11
+  - first:
+      213: 5666703798900807871
+    second: printer face 1_12
+  - first:
+      213: 2008746364109429659
+    second: printer face 1_13
+  - first:
+      213: -8827324161977901081
+    second: printer face 1_14
+  - first:
+      213: 6580086979456797108
+    second: printer face 1_15
+  - first:
+      213: 8563870271399337644
+    second: printer face 1_16
+  - first:
+      213: -8732079530848423541
+    second: printer face 1_17
+  - first:
+      213: 1044876373708983457
+    second: printer face 1_18
+  - first:
+      213: 4035056361807913357
+    second: printer face 1_19
+  - first:
+      213: -8001640320479347957
+    second: printer face 1_20
+  - first:
+      213: 4071245419021477760
+    second: printer face 1_21
+  - first:
+      213: -7978377776002496048
+    second: printer face 1_22
+  - first:
+      213: -864912866908932677
+    second: printer face 1_23
+  - first:
+      213: 8454579307993456498
+    second: printer face 1_24
+  - first:
+      213: -3290978897100801711
+    second: printer face 1_25
+  - first:
+      213: -1383495657687465681
+    second: printer face 1_26
+  - first:
+      213: -3877850186240910840
+    second: printer face 1_27
+  - first:
+      213: 2299145707649254185
+    second: printer face 1_28
+  - first:
+      213: 7143000347443422393
+    second: printer face 1_29
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: printer face 1_0
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 1920
+        width: 1393
+        height: 1357
+      alignment: 9
+      pivot: {x: 0.5049506, y: 0.50508195}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 940be13285c169b10800000000000000
+      internalID: 1987807450402566217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: printer face 1_1
+      rect:
+        serializedVersion: 2
+        x: 1589
+        y: 1929
+        width: 1403
+        height: 1372
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88af092d0516f2f90800000000000000
+      internalID: -6976250298015614328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: printer face 1_2
+      rect:
+        serializedVersion: 2
+        x: 3272
+        y: 1833
+        width: 1511
+        height: 1384
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 682cc692ff840a370800000000000000
+      internalID: 8331739571384271494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: printer face 1_3
+      rect:
+        serializedVersion: 2
+        x: 5124
+        y: 1796
+        width: 1501
+        height: 1517
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64b2567ef9d415aa0800000000000000
+      internalID: -6174068264970933434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: printer face 1_14
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 0
+        width: 1298
+        height: 1691
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ef9510a17b0f7580800000000000000
+      internalID: -8827324161977901081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: printer face 1_15
+      rect:
+        serializedVersion: 2
+        x: 1753
+        y: 0
+        width: 1218
+        height: 1736
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b902b9be3a215b50800000000000000
+      internalID: 6580086979456797108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: printer face 1_16
+      rect:
+        serializedVersion: 2
+        x: 3457
+        y: 0
+        width: 1118
+        height: 1723
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cae194573aaf8d670800000000000000
+      internalID: 8563870271399337644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: printer face 1_17
+      rect:
+        serializedVersion: 2
+        x: 5150
+        y: 0
+        width: 1443
+        height: 1746
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b81f1556eeb61d680800000000000000
+      internalID: -8732079530848423541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 4507bbae72daf2c4781e550bda731b20
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      printer face 1_0: 1987807450402566217
+      printer face 1_1: -6976250298015614328
+      printer face 1_10: 4818411848851044162
+      printer face 1_11: -7786449439219195996
+      printer face 1_12: 5666703798900807871
+      printer face 1_13: 2008746364109429659
+      printer face 1_14: -8827324161977901081
+      printer face 1_15: 6580086979456797108
+      printer face 1_16: 8563870271399337644
+      printer face 1_17: -8732079530848423541
+      printer face 1_18: 1044876373708983457
+      printer face 1_19: 4035056361807913357
+      printer face 1_2: 8331739571384271494
+      printer face 1_20: -8001640320479347957
+      printer face 1_21: 4071245419021477760
+      printer face 1_22: -7978377776002496048
+      printer face 1_23: -864912866908932677
+      printer face 1_24: 8454579307993456498
+      printer face 1_25: -3290978897100801711
+      printer face 1_26: -1383495657687465681
+      printer face 1_27: -3877850186240910840
+      printer face 1_28: 2299145707649254185
+      printer face 1_29: 7143000347443422393
+      printer face 1_3: -6174068264970933434
+      printer face 1_4: 7276560444080852261
+      printer face 1_5: -8193725541170345582
+      printer face 1_6: -3167978842042741250
+      printer face 1_7: 8310983117831085658
+      printer face 1_8: -2181184492038693385
+      printer face 1_9: 880000049200959207
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

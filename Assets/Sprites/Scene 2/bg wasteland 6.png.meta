@@ -1,0 +1,806 @@
+fileFormatVersion: 2
+guid: 9cd0b29383b49844a81253cf2023aa06
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2013719925179908262
+    second: bg wasteland 6_0
+  - first:
+      213: 7578636787379427218
+    second: bg wasteland 6_1
+  - first:
+      213: -1525099098291755568
+    second: bg wasteland 6_2
+  - first:
+      213: -569993040719927774
+    second: bg wasteland 6_3
+  - first:
+      213: -277525391890451213
+    second: bg wasteland 6_4
+  - first:
+      213: 7437035944129421397
+    second: bg wasteland 6_5
+  - first:
+      213: 4362758288545924279
+    second: bg wasteland 6_6
+  - first:
+      213: 4953589853776595888
+    second: bg wasteland 6_7
+  - first:
+      213: -1213082215930910534
+    second: bg wasteland 6_8
+  - first:
+      213: -1499795639516863637
+    second: bg wasteland 6_9
+  - first:
+      213: -2177647650552409240
+    second: bg wasteland 6_10
+  - first:
+      213: 3211774822967171064
+    second: bg wasteland 6_11
+  - first:
+      213: -1652664004816378505
+    second: bg wasteland 6_12
+  - first:
+      213: 7544011232040560650
+    second: bg wasteland 6_13
+  - first:
+      213: 6145945574868356752
+    second: bg wasteland 6_14
+  - first:
+      213: -1795514882664851575
+    second: bg wasteland 6_15
+  - first:
+      213: -2167549286674315083
+    second: bg wasteland 6_16
+  - first:
+      213: -165062673681834228
+    second: bg wasteland 6_17
+  - first:
+      213: 2269522905643298737
+    second: bg wasteland 6_18
+  - first:
+      213: -5551179414436970920
+    second: bg wasteland 6_19
+  - first:
+      213: 4214383543603224021
+    second: bg wasteland 6_20
+  - first:
+      213: 7081435919652015400
+    second: bg wasteland 6_21
+  - first:
+      213: 7858281355809203564
+    second: bg wasteland 6_22
+  - first:
+      213: 6392562745807093054
+    second: bg wasteland 6_23
+  - first:
+      213: -1230642563608960004
+    second: bg wasteland 6_24
+  - first:
+      213: -4408679116953999667
+    second: bg wasteland 6_25
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: bg wasteland 6_0
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 163
+        width: 895
+        height: 1353
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5f768ea564dd04e0800000000000000
+      internalID: -2013719925179908262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg wasteland 6_1
+      rect:
+        serializedVersion: 2
+        x: 1619
+        y: 1175
+        width: 300
+        height: 457
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2975579310abc2960800000000000000
+      internalID: 7578636787379427218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg wasteland 6_2
+      rect:
+        serializedVersion: 2
+        x: 1901
+        y: 912
+        width: 494
+        height: 609
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d52d0f4372c5dae0800000000000000
+      internalID: -1525099098291755568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg wasteland 6_3
+      rect:
+        serializedVersion: 2
+        x: 2355
+        y: 1044
+        width: 156
+        height: 318
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 226a173795af618f0800000000000000
+      internalID: -569993040719927774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg wasteland 6_4
+      rect:
+        serializedVersion: 2
+        x: 4316
+        y: 996
+        width: 113
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f4f7306028062cf0800000000000000
+      internalID: -277525391890451213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg wasteland 6_5
+      rect:
+        serializedVersion: 2
+        x: 4437
+        y: 1266
+        width: 94
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55065afb9c8a53760800000000000000
+      internalID: 7437035944129421397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg wasteland 6_6
+      rect:
+        serializedVersion: 2
+        x: 4537
+        y: 1013
+        width: 194
+        height: 365
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b4cbad6c81ab8c30800000000000000
+      internalID: 4362758288545924279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg wasteland 6_7
+      rect:
+        serializedVersion: 2
+        x: 6369
+        y: 1005
+        width: 299
+        height: 359
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bb455d0abfaeb440800000000000000
+      internalID: 4953589853776595888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg wasteland 6_8
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 1013
+        width: 21
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab8281cd6244a2fe0800000000000000
+      internalID: -1213082215930910534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg wasteland 6_9
+      rect:
+        serializedVersion: 2
+        x: 2475
+        y: 367
+        width: 619
+        height: 770
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b63eae6efc7af2be0800000000000000
+      internalID: -1499795639516863637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg wasteland 6_10
+      rect:
+        serializedVersion: 2
+        x: 3101
+        y: 913
+        width: 157
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8631cdedff077c1e0800000000000000
+      internalID: -2177647650552409240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg wasteland 6_11
+      rect:
+        serializedVersion: 2
+        x: 4738
+        y: 771
+        width: 397
+        height: 278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f7508d4f24829c20800000000000000
+      internalID: 3211774822967171064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg wasteland 6_12
+      rect:
+        serializedVersion: 2
+        x: 2007
+        y: 554
+        width: 183
+        height: 353
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77568d308de8019e0800000000000000
+      internalID: -1652664004816378505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg wasteland 6_13
+      rect:
+        serializedVersion: 2
+        x: 3239
+        y: 541
+        width: 323
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a08a553ee36b1b860800000000000000
+      internalID: 7544011232040560650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg wasteland 6_14
+      rect:
+        serializedVersion: 2
+        x: 4140
+        y: 675
+        width: 197
+        height: 313
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09e89ee00f8ca4550800000000000000
+      internalID: 6145945574868356752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg wasteland 6_15
+      rect:
+        serializedVersion: 2
+        x: 5138
+        y: 579
+        width: 604
+        height: 417
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98795dd2abc0517e0800000000000000
+      internalID: -1795514882664851575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg wasteland 6_16
+      rect:
+        serializedVersion: 2
+        x: 5743
+        y: 754
+        width: 92
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b840ae68615be1e0800000000000000
+      internalID: -2167549286674315083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg wasteland 6_17
+      rect:
+        serializedVersion: 2
+        x: 5826
+        y: 505
+        width: 323
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0f94817f5495bdf0800000000000000
+      internalID: -165062673681834228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg wasteland 6_18
+      rect:
+        serializedVersion: 2
+        x: 6316
+        y: 835
+        width: 79
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bf2b78ee07fe7f10800000000000000
+      internalID: 2269522905643298737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg wasteland 6_19
+      rect:
+        serializedVersion: 2
+        x: 6448
+        y: 867
+        width: 111
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85ef506ebbf36f2b0800000000000000
+      internalID: -5551179414436970920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg wasteland 6_20
+      rect:
+        serializedVersion: 2
+        x: 1806
+        y: 607
+        width: 118
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ddd8bf018f7c7a30800000000000000
+      internalID: 4214383543603224021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg wasteland 6_21
+      rect:
+        serializedVersion: 2
+        x: 2030
+        y: 119
+        width: 318
+        height: 621
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82dcc8a2370564260800000000000000
+      internalID: 7081435919652015400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg wasteland 6_22
+      rect:
+        serializedVersion: 2
+        x: 4563
+        y: 712
+        width: 138
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c65251612493e0d60800000000000000
+      internalID: 7858281355809203564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg wasteland 6_23
+      rect:
+        serializedVersion: 2
+        x: 6140
+        y: 616
+        width: 135
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3d3a34b2f1f6b850800000000000000
+      internalID: 6392562745807093054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg wasteland 6_24
+      rect:
+        serializedVersion: 2
+        x: 6297
+        y: 665
+        width: 142
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf3ac9ecb11ebeee0800000000000000
+      internalID: -1230642563608960004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg wasteland 6_25
+      rect:
+        serializedVersion: 2
+        x: 5071
+        y: 581
+        width: 78
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc6264983b931d2c0800000000000000
+      internalID: -4408679116953999667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      bg wasteland 6_0: -2013719925179908262
+      bg wasteland 6_1: 7578636787379427218
+      bg wasteland 6_10: -2177647650552409240
+      bg wasteland 6_11: 3211774822967171064
+      bg wasteland 6_12: -1652664004816378505
+      bg wasteland 6_13: 7544011232040560650
+      bg wasteland 6_14: 6145945574868356752
+      bg wasteland 6_15: -1795514882664851575
+      bg wasteland 6_16: -2167549286674315083
+      bg wasteland 6_17: -165062673681834228
+      bg wasteland 6_18: 2269522905643298737
+      bg wasteland 6_19: -5551179414436970920
+      bg wasteland 6_2: -1525099098291755568
+      bg wasteland 6_20: 4214383543603224021
+      bg wasteland 6_21: 7081435919652015400
+      bg wasteland 6_22: 7858281355809203564
+      bg wasteland 6_23: 6392562745807093054
+      bg wasteland 6_24: -1230642563608960004
+      bg wasteland 6_25: -4408679116953999667
+      bg wasteland 6_3: -569993040719927774
+      bg wasteland 6_4: -277525391890451213
+      bg wasteland 6_5: 7437035944129421397
+      bg wasteland 6_6: 4362758288545924279
+      bg wasteland 6_7: 4953589853776595888
+      bg wasteland 6_8: -1213082215930910534
+      bg wasteland 6_9: -1499795639516863637
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
