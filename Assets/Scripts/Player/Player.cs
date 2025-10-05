@@ -21,6 +21,8 @@ public class Player : MonoBehaviour
     public bool tapeUnlocked = false;
     public float playerHealth = 100f;
 
+    public bool planeMode = false;
+
     public enum PlayerFormState
     {
         FlatPaper,
@@ -55,12 +57,16 @@ public class Player : MonoBehaviour
 
     public float tapeStickDuration = 5f;
 
+    public GameObject planeController;
+    public GameObject planeSprite;
+
 
     // Animations
 
 
     void Start()
     {
+        planeController.SetActive(false);
         playerRb = GetComponent<Rigidbody2D>();
         moveAction = InputSystem.actions.FindAction("Move");
         mainCam = Camera.main;
@@ -77,6 +83,7 @@ public class Player : MonoBehaviour
 
     public void paperCut(InputAction.CallbackContext context)
     {
+
         //sac menu check
         if (sacMenuOpen)
         {
@@ -123,10 +130,10 @@ public class Player : MonoBehaviour
                     }
                     break;
             }
-            if (!(quadrant == 1 && !tapeUnlocked) && totalLeftPlayerSacrifices>0)
+            if (!(quadrant == 1 && !tapeUnlocked) && totalLeftPlayerSacrifices > 0)
             {
                 totalLeftPlayerSacrifices -= 1;
-                Instantiate(deadPaperPrefab,position:this.transform.position, Quaternion.identity);
+                Instantiate(deadPaperPrefab, position: this.transform.position, Quaternion.identity);
                 setSacColor();
 
             }
@@ -264,6 +271,11 @@ public class Player : MonoBehaviour
     // Update is called once per frame
     private void FixedUpdate()
     {
+                if (planeMode)
+        {
+            planeController.SetActive(true);
+            planeSprite.SetActive(false);
+        }
     
         // if (!isGrounded && !isDashing && !jumpLoaded)
         // {
