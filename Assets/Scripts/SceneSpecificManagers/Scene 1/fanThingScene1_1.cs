@@ -60,6 +60,8 @@ public class fanThingScene1_1 : MonoBehaviour
     {
         pressed = 5;
 
+        GetComponentInChildren<triggerRespawn>().enable = false;
+
     }
 
 

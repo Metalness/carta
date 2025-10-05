@@ -50,6 +50,7 @@ MonoBehaviour:
   - 0
   - 0
   - 0
+  totalLeftPlayerSacrifices: 0
   tapeUnlocked: 0
   transitionAnimatior: {fileID: 330352785630607888}
 --- !u!1 &2227802662983799946
@@ -173,7 +174,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1225341737171865789
 RectTransform:
   m_ObjectHideFlags: 0
@@ -261,7 +262,7 @@ CanvasGroup:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8675901246797010900}
   m_Enabled: 1
-  m_Alpha: 0
+  m_Alpha: 1
   m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0

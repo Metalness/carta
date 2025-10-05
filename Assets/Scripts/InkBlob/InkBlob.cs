@@ -1,14 +1,14 @@
 using UnityEngine;
 using System.Collections;
-using Unity.Mathematics;
+
 public class InkBlob : MonoBehaviour
 {
     public float moveSpeed = 2f;
     public float chargeRange = 2f;
-    public float explodeDelay = 1f; // time to explode after charge
-        public float explodeRadius = 1.5f;
-
-    public int damage = 1;
+    public float explodeDelay = 1f;
+    public float explodeRadius = 1.5f;
+    public int maxDamage = 3; // max damage if player is at center
+    public float minDamageMultiplier = 0.3f; // how much damage at edge
 
     [SerializeField] private ParticleSystem explosionParticleSystem;
 
@@ -16,10 +16,7 @@ public class InkBlob : MonoBehaviour
     private Transform player;
     private bool isCharging = false;
     private bool isDead = false;
-    void Awake()
-    {
-        // explosionParticleSystem.gameObject.SetActive(false);
-    }
+
     void Start()
     {
         animator = GetComponent<Animator>();
@@ -33,15 +30,13 @@ public class InkBlob : MonoBehaviour
     {
         if (player == null || isCharging || isDead) return;
 
-        transform.rotation = Quaternion.Euler(0, 0, 0);
+        transform.rotation = Quaternion.identity;
 
         float deltaX = player.position.x - transform.position.x;
         float distance = Vector2.Distance(player.position, transform.position);
 
-        // Move toward player if not in charge range
-        if (distance > chargeRange )
+        if (distance > chargeRange)
         {
-
             if (deltaX > 0)
                 animator.SetTrigger("RunRight");
             else
@@ -52,14 +47,8 @@ public class InkBlob : MonoBehaviour
         }
         else
         {
-            // Start charging
             isCharging = true;
-            if (deltaX > 0)
-                animator.SetTrigger("ChargeRight");
-            else
-                animator.SetTrigger("ChargeLeft");
-
-            Debug.Log($"InkBlob: Charging {(deltaX > 0 ? "Right" : "Left")}");
+            animator.SetTrigger(deltaX > 0 ? "ChargeRight" : "ChargeLeft");
             explosionParticleSystem.Play();
             Invoke(nameof(Explode), explodeDelay);
         }
@@ -71,33 +60,34 @@ public class InkBlob : MonoBehaviour
 
         isDead = true;
         animator.SetTrigger("Die");
-        Debug.Log("InkBlob: Exploding!");
+        explosionParticleSystem.gameObject.SetActive(true);
 
-        // Damage player if in range (example)
         Collider2D[] hits = Physics2D.OverlapCircleAll(transform.position, explodeRadius);
         foreach (Collider2D hit in hits)
         {
             if (hit.CompareTag("Player"))
             {
-                // hit.GetComponent<PlayerHealth>()?.TakeDamage(damage);
-                Debug.Log("InkBlob: Hit player with ink!");
+                float dist = Vector2.Distance(hit.transform.position, transform.position);
+                float t = Mathf.Clamp01(dist / explodeRadius); // 0 = center, 1 = edge
+                int damage = Mathf.RoundToInt(Mathf.Lerp(maxDamage, maxDamage * minDamageMultiplier, t));
+
+                Debug.Log($"InkBlob: Player hit! Distance={dist:F2}, Damage={damage}");
+                hit.GetComponent<Player>()?.damagePlayer(damage);
             }
         }
-        explosionParticleSystem.gameObject.SetActive(true);
-        StartCoroutine(DisableAfterTime(0.5f));// destroy after explosion animation
+
+        StartCoroutine(DisableAfterTime(0.5f));
         Destroy(gameObject, 3f);
-        
     }
-    
+
     IEnumerator DisableAfterTime(float t)
-{
-    yield return new WaitForSeconds(t);
-    gameObject.GetComponent<Renderer>().enabled = false;
-}
+    {
+        yield return new WaitForSeconds(t);
+        GetComponent<Renderer>().enabled = false;
+    }
 
     private void OnDrawGizmosSelected()
     {
-        // visualize explosion range
         Gizmos.color = Color.red;
         Gizmos.DrawWireSphere(transform.position, explodeRadius);
     }

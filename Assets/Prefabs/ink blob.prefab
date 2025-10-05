@@ -4967,9 +4967,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::InkBlob
   moveSpeed: 3
   chargeRange: 4
-  explodeDelay: 1
-  explodeRadius: 1
-  damage: 1
+  explodeDelay: 1.5
+  explodeRadius: 1.3
+  maxDamage: 10
+  minDamageMultiplier: 0.3
   explosionParticleSystem: {fileID: 618011488820044855}
 --- !u!50 &7726704996526974318
 Rigidbody2D:

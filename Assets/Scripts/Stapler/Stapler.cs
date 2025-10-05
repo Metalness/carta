@@ -4,6 +4,7 @@ using System.Collections;
 public class Stapler : MonoBehaviour
 {
     [Header("Movement + Attack Settings")]
+    public float health;
     public float hopForce = 1f;
     public float attackRange = 3f;
     public float detectionRange = 7f;
@@ -42,8 +43,18 @@ public class Stapler : MonoBehaviour
             Debug.LogWarning("Stapler: No player found in scene!");
     }
 
+    public void damagePlayer(int damage)
+    {
+        health -= damage;
+
+    }
+
     void FixedUpdate()
     {
+        if (health < 0)
+        {
+            DestroyImmediate(this);
+        }
         if (player == null) return;
 
         // tick down cooldowns

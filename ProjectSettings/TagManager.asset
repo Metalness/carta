@@ -7,6 +7,8 @@ TagManager:
   - Stapler
   - Wall
   - deadPaper
+  - printerHead
+  - cinemachine
   layers:
   - Default
   - TransparentFX

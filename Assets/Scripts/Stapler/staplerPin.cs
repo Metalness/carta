@@ -18,7 +18,7 @@ public class staplerPin : MonoBehaviour
             Debug.Log("Pin hit the player!");
             Destroy(gameObject, 0.5f);
 
-            other.GetComponent<Player>().damagePlayer(1);
+            other.GetComponent<Player>().damagePlayer(14f);
 
         }
 

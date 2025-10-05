@@ -3,7 +3,8 @@ using UnityEngine.InputSystem;
 using System.Collections;
 using TMPro;
 using Unity.Mathematics;
-using UnityEditor.EditorTools;
+using UnityEngine.SceneManagement;
+using System.Collections.Generic;
 
 public class Player : MonoBehaviour
 {
@@ -81,8 +82,42 @@ public class Player : MonoBehaviour
         inputActions = new PlayerInputActions();
     }
 
+        public float radius = 5f;
+
+    void DamageNearbyStaplers(int damageAmount)
+    {
+        GameObject[] staplers = GameObject.FindGameObjectsWithTag("Stapler");
+
+        foreach (GameObject stapler in staplers)
+        {
+            float distance = Vector2.Distance(transform.position, stapler.transform.position);
+            if (distance <= radius)
+            {
+                // assumes stapler has a script with DealDamage(int amount)
+                stapler.GetComponent<Stapler>().damagePlayer(5);
+            }
+        }
+    }
+
+    // optional: visualize the radius in editor
+    void OnDrawGizmosSelected()
+    {
+        Gizmos.color = Color.red;
+        Gizmos.DrawWireSphere(transform.position, radius);
+
+        Gizmos.color = isGrounded ? Color.green : Color.red;
+        Gizmos.DrawLine(transform.position, transform.position + Vector3.down * groundCheckRadius);
+    
+    }
+
     public void paperCut(InputAction.CallbackContext context)
     {
+        DamageNearbyStaplers(15);
+
+        if (SceneManager.GetActiveScene().buildIndex == 4)
+        {
+            GameObject.FindGameObjectWithTag("printerHead").GetComponent<printerHead>().paperCut();
+        }
 
         //sac menu check
         if (sacMenuOpen)
@@ -130,9 +165,11 @@ public class Player : MonoBehaviour
                     }
                     break;
             }
-            if (!(quadrant == 1 && !tapeUnlocked) && totalLeftPlayerSacrifices > 0)
+            if (totalLeftPlayerSacrifices > 0)
             {
+                if (!tapeUnlocked && quadrant == 1) { return; }
                 totalLeftPlayerSacrifices -= 1;
+                Debug.Log("what thee acutal fuck");
                 Instantiate(deadPaperPrefab, position: this.transform.position, Quaternion.identity);
                 setSacColor();
 
@@ -239,7 +276,7 @@ public class Player : MonoBehaviour
         Debug.Log("what");
         if (onRespawnScreen)
         {
-            transform.Translate(GameObject.FindGameObjectWithTag("Respawn").transform.position);
+            transform.position = GameObject.FindGameObjectWithTag("Respawn").transform.position;
             onRespawnScreen = false;
             deathCanvas.SetActive(false);
             GameManager.Instance.resetTimeScale();
@@ -271,6 +308,10 @@ public class Player : MonoBehaviour
     // Update is called once per frame
     private void FixedUpdate()
     {
+        if (playerHealth <= 0)
+        {
+            killPlayer("oof");
+        }
                 if (planeMode)
         {
             planeController.SetActive(true);
@@ -366,12 +407,6 @@ public class Player : MonoBehaviour
     public void damagePlayer(float health = 1f)
     {
         playerHealth -= health;
-    }
-
-    private void OnDrawGizmosSelected()
-    {
-        Gizmos.color = isGrounded ? Color.green : Color.red;
-        Gizmos.DrawLine(transform.position, transform.position + Vector3.down * groundCheckRadius);
     }
 
 

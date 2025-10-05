@@ -1,15 +1,18 @@
 using System.Net;
+using Unity.Cinemachine;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
 public class printerHead : MonoBehaviour
 {
 
-    public float health = 400;
+    public float health = 100f;
 
     public Transform end1;
     public Transform end2;
     private Transform currentTarget;
+    public Animator faceAnimator;
+    public Canvas sacrificeText;
     public GameObject inkBlobPrefab;
 
     public int maxAttackPhase = 600;
@@ -25,33 +28,39 @@ public class printerHead : MonoBehaviour
     void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player").gameObject.transform;
+        sacrificeText.enabled = false;
+
     }
 
-    private void OnEnable()
-    {
-        // Assuming you already have your InputAction called "jump"
-        inputActions.Player.Interact.performed += paperCut;
-        inputActions.Player.Enable();
-    }
 
-    private void OnDisable()
+    public void paperCut()
     {
-        inputActions.Player.Interact.performed -= paperCut;
-        inputActions.Player.Disable();
-    }
+        Debug.Log("test");
+        if (health == 0)
+        {
+            faceAnimator.SetTrigger("puke");
+            sacrificeText.enabled = true;
+            
 
-    public void paperCut(InputAction.CallbackContext context)
-    {
+        }
         if (playerInRange)
         {
-            health -= player.GetComponent<Player>().paperCutDamage;
+            health -= player.GetComponent<Player>().paperCutDamage / 5f;
         }
+
+        GameObject.FindGameObjectWithTag("cinemachine").GetComponent<CinemachineBasicMultiChannelPerlin>().FrequencyGain = 100f;
     }
     void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Player")) {
+        if (collision.CompareTag("Player"))
+        {
             playerInRange = true;
-            
+            GameObject.FindGameObjectWithTag("cinemachine").GetComponent<CinemachineBasicMultiChannelPerlin>().FrequencyGain = 1f;
+
+        }
+        if (collision.CompareTag("deadPaper"))
+        {
+            GameManager.Instance.sceneChange(5);
         }
     }
 
@@ -59,7 +68,7 @@ public class printerHead : MonoBehaviour
     {
         if (collision.CompareTag("Player")) {
             playerInRange = false;
-            
+            GameObject.FindGameObjectWithTag("cinemachine").GetComponent<CinemachineBasicMultiChannelPerlin>().FrequencyGain = 1f;
         }
     }
 
@@ -71,6 +80,8 @@ public class printerHead : MonoBehaviour
 
         if (attackTimer == 0)
         {
+            GameObject.FindGameObjectWithTag("cinemachine").GetComponent<CinemachineBasicMultiChannelPerlin>().FrequencyGain = 1f;
+
             attackTimer = maxAttackPhase;
             attacking = !attacking;
         }
