@@ -1,3 +1,4 @@
+# PUBLISHED ON ITCH https://metalwastaken.itch.io/carta
 #  Carta
 The game revolves around a paper who gains consciousness and now is trying to escape the printer factory. Its a 2D platformer action game where the player encounter different types of enemy through out the game. The player is also provided whith different type of abilities to perform serveral task and to face the foes.
 
