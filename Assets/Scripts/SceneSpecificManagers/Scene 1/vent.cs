@@ -45,7 +45,6 @@ public class vent : MonoBehaviour
 
     private void OnEnable()
     {
-        // Assuming you already have your InputAction called "jump"
         inputActions.Player.Interact.performed += enterVent;
         inputActions.Player.Enable();
     }
@@ -72,8 +71,8 @@ public class vent : MonoBehaviour
             GameManager.Instance.sceneChange(2);
         }
     }
-    
-       void FixedUpdate()
+
+    void FixedUpdate()
     {
         pressed = Mathf.Max(0, pressed - 1);
     }

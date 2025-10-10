@@ -48,17 +48,23 @@ MonoBehaviour:
   soundList:
   - name: paperSliding
     sounds:
-    - {fileID: 8300000, guid: eb409d7e960cdef4186c866c4e02994d, type: 3}
-    - {fileID: 8300000, guid: e93f3dbe652132a48a27b210a6000c2c, type: 3}
-    - {fileID: 8300000, guid: 9d240b1aff83ee345a53d1cfb4f97614, type: 3}
-    - {fileID: 8300000, guid: 69c95cdf97f6cf942ab4d19a8a921c50, type: 3}
+    - {fileID: 8300000, guid: b057f19629e681e43a0094f8c467a8c4, type: 3}
+    - {fileID: 8300000, guid: a993723f4483b8e4b9be4ad3bdcd8fb6, type: 3}
+    - {fileID: 8300000, guid: 3e90e1c4e9a2dbe46bf1c8d097a15473, type: 3}
+    - {fileID: 8300000, guid: 5cd9b643b301afc49ade162345f4c8b8, type: 3}
   - name: paperCut
-    sounds: []
+    sounds:
+    - {fileID: 8300000, guid: 08a40518807ff504fabfd3d9176462b6, type: 3}
+    - {fileID: 8300000, guid: c5b4622e8a0011041b05dec0f5182d3d, type: 3}
+    - {fileID: 8300000, guid: 3fb73ce87e317ae40993aeaf89652a6f, type: 3}
+    - {fileID: 8300000, guid: 281edc6acdce2044486a4e07385b94d0, type: 3}
   - name: bladeSlide
     sounds:
     - {fileID: 8300000, guid: def20a384f4fa764bb48cfff795042b6, type: 3}
   - name: pressImpact
-    sounds: []
+    sounds:
+    - {fileID: 8300000, guid: 48ab37caab3f3b343b029382bf8977d0, type: 3}
+    - {fileID: 8300000, guid: 642b0c66102c2a347bdf228c4c5f573c, type: 3}
   - name: staplerShoot
     sounds:
     - {fileID: 8300000, guid: 01f4af1e51e20964b8fb1296f97e9a13, type: 3}
@@ -72,6 +78,14 @@ MonoBehaviour:
     - {fileID: 8300000, guid: 82979e89738c0e04ebe234c0af754b2a, type: 3}
   - name: playerStaplerHit
     sounds: []
+  - name: paperDash
+    sounds:
+    - {fileID: 8300000, guid: 5e0f5d9a6f820874ca51b1e9b2daf6a3, type: 3}
+    - {fileID: 8300000, guid: 2b96a56982ce80a40b1671114f825aee, type: 3}
+    - {fileID: 8300000, guid: 0eebf288480e00c4b99ca8141c6f49f3, type: 3}
+    - {fileID: 8300000, guid: 76ed8a77356fb30479433b9fb5b28fc3, type: 3}
+    - {fileID: 8300000, guid: 218bfdccdfda7bf48ad6ecedfa1d92d2, type: 3}
+    - {fileID: 8300000, guid: c321acb64121b4d48a97fb9c62dcaf57, type: 3}
 --- !u!82 &6186485040579532271
 AudioSource:
   m_ObjectHideFlags: 0

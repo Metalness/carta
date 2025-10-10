@@ -2,9 +2,10 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 using System.Collections;
 using TMPro;
-using Unity.Mathematics;
+using UnityEngine.Events;
+
 using UnityEngine.SceneManagement;
-using System.Collections.Generic;
+
 
 public class Player : MonoBehaviour
 {
@@ -21,9 +22,11 @@ public class Player : MonoBehaviour
     public bool isDashing = false;
     public bool tapeUnlocked = false;
     public float playerHealth = 100f;
+    public float maxHealth = 100f;
+    public TextMeshProUGUI HealthText;
 
     public bool planeMode = false;
-
+    //i dont think we used player form state
     public enum PlayerFormState
     {
         FlatPaper,
@@ -52,6 +55,7 @@ public class Player : MonoBehaviour
 
     [SerializeField] private playerAnimationLink playerAnimationLink;
     public papeCutScript paperCutScript;
+    public float paperCutVerticalForce;
     [SerializeField] private Transform pivot;
 
     PlayerInputActions inputActions;
@@ -60,6 +64,11 @@ public class Player : MonoBehaviour
 
     public GameObject planeController;
     public GameObject planeSprite;
+
+    public UnityEvent shake;
+
+    public AudioReverbZone audioReverbZone;
+
 
 
     // Animations
@@ -82,7 +91,7 @@ public class Player : MonoBehaviour
         inputActions = new PlayerInputActions();
     }
 
-        public float radius = 5f;
+    public float radius = 5f;
 
     void DamageNearbyStaplers(int damageAmount)
     {
@@ -93,7 +102,6 @@ public class Player : MonoBehaviour
             float distance = Vector2.Distance(transform.position, stapler.transform.position);
             if (distance <= radius)
             {
-                // assumes stapler has a script with DealDamage(int amount)
                 stapler.GetComponent<Stapler>().damagePlayer(5);
             }
         }
@@ -107,11 +115,16 @@ public class Player : MonoBehaviour
 
         Gizmos.color = isGrounded ? Color.green : Color.red;
         Gizmos.DrawLine(transform.position, transform.position + Vector3.down * groundCheckRadius);
-    
+
     }
+
+
 
     public void paperCut(InputAction.CallbackContext context)
     {
+        SoundManager.PlaySound(SoundManager.SoundType.paperCut);
+        playerRb.AddForceY(paperCutVerticalForce, ForceMode2D.Impulse);
+        shake.Invoke();
         DamageNearbyStaplers(15);
 
         if (SceneManager.GetActiveScene().buildIndex == 4)
@@ -170,13 +183,14 @@ public class Player : MonoBehaviour
                 if (!tapeUnlocked && quadrant == 1) { return; }
                 totalLeftPlayerSacrifices -= 1;
                 Debug.Log("what thee acutal fuck");
-                Instantiate(deadPaperPrefab, position: this.transform.position, Quaternion.identity);
+                GameObject deadPaper = Instantiate(deadPaperPrefab, position: this.transform.position, Quaternion.identity);
+                deadPaper.GetComponent<SpriteRenderer>().sprite = playerAnimationLink.GetComponent<SpriteRenderer>().sprite;
                 setSacColor();
 
             }
             if (totalLeftPlayerSacrifices == 0)
             {
-                //todo die
+                killPlayer("too many sacrifices.");
             }
             else { GameManager.Instance.updateSacrificePlayer(totalLeftPlayerSacrifices); }
 
@@ -193,18 +207,15 @@ public class Player : MonoBehaviour
     {
         Color[] sacColors = new Color[] { sac1, sac2, sac3, sac4, sac5, sac6 };
 
-        // Make sure value is in range 1-6
         if (totalLeftPlayerSacrifices < 1 || totalLeftPlayerSacrifices > 6)
             return;
 
-        // Array is 0-indexed, so subtract 1
         Color newColor = sacColors[6 - totalLeftPlayerSacrifices];
 
         playerAnimationLink.GetComponent<SpriteRenderer>().color = newColor;
     }
     private void OnEnable()
     {
-        // Assuming you already have your InputAction called "jump"
         inputActions.Player.Jump.performed += jumpPerformed;
         inputActions.Player.Jump.canceled += jumpReleased;
         inputActions.Player.RightDash.performed += rightDash;
@@ -213,8 +224,16 @@ public class Player : MonoBehaviour
         inputActions.Player.Sacrifice.performed += sacMenu;
         inputActions.Player.Enable();
     }
+    private int prevRoom;
+    private float prevDiffusion;
     public void killPlayer(string text)
     {
+        prevRoom = audioReverbZone.room;
+        prevDiffusion = audioReverbZone.diffusion;
+
+        audioReverbZone.room = -300;
+        audioReverbZone.diffusion = 15;
+
         onRespawnScreen = true;
         allowMovement = false;
         deathCanvas.SetActive(true);
@@ -242,6 +261,7 @@ public class Player : MonoBehaviour
             playerAnimationLink.animator.SetTrigger("dashRight");
             isDashing = true;
             StartCoroutine(ApplyDashAfterDelay(0.2f, Vector2.right * dashForceMag));
+            SoundManager.PlaySound(SoundManager.SoundType.paperDash);
 
         }
     }
@@ -254,6 +274,8 @@ public class Player : MonoBehaviour
 
             isDashing = true;
             StartCoroutine(ApplyDashAfterDelay(0.2f, Vector2.left * dashForceMag));
+            SoundManager.PlaySound(SoundManager.SoundType.paperDash);
+
 
         }
     }
@@ -267,8 +289,6 @@ public class Player : MonoBehaviour
     private IEnumerator ApplyDashAfterDelay(float delay, Vector2 force)
     {
         yield return new WaitForSeconds(delay);
-
-        // apply force in the "up" direction
         playerRb.AddForce(force, ForceMode2D.Force);
     }
     private void jumpPerformed(InputAction.CallbackContext context)
@@ -276,6 +296,13 @@ public class Player : MonoBehaviour
         Debug.Log("what");
         if (onRespawnScreen)
         {
+            audioReverbZone.room = prevRoom;
+            audioReverbZone.diffusion = prevDiffusion;
+            if (totalLeftPlayerSacrifices == 0)
+            {
+                GameManager.Instance.sceneChange(0);
+                GameManager.Instance.EraseSave();
+            }
             transform.position = GameObject.FindGameObjectWithTag("Respawn").transform.position;
             onRespawnScreen = false;
             deathCanvas.SetActive(false);
@@ -301,23 +328,55 @@ public class Player : MonoBehaviour
         allowMovement = true;
         playerRb.AddForce(pivot.right * jumpForceMag, ForceMode2D.Impulse);
     }
+
+    void UpdateHealthText()
+    {
+        string conditionText = GetPaperCondition(playerHealth, maxHealth);
+        HealthText.text = conditionText + " condition";
+    }
+
+    string GetPaperCondition(float currentHealth, float maxHealth)
+    {
+        float healthPercentage = (currentHealth / maxHealth) * 100f;
+
+        if (healthPercentage >= 100f)
+            return "Pristine";
+        else if (healthPercentage >= 90f)
+            return "Mint";
+        else if (healthPercentage >= 75f)
+            return "Near Mint";
+        else if (healthPercentage >= 60f)
+            return "Fine";
+        else if (healthPercentage >= 45f)
+            return "Good";
+        else if (healthPercentage >= 30f)
+            return "Fair";
+        else if (healthPercentage >= 15f)
+            return "Poor";
+        else if (healthPercentage >= 5f)
+            return "Damaged";
+        else
+            return "Destroyed";
+    }
     void Update()
     {
-            if(sacMenuOpen){ mousePosSacText(); }
+        if (sacMenuOpen) { mousePosSacText(); }
+        UpdateHealthText();
+
     }
     // Update is called once per frame
     private void FixedUpdate()
     {
         if (playerHealth <= 0)
         {
-            killPlayer("oof");
+            killPlayer("destroyed.");
         }
-                if (planeMode)
+        if (planeMode)
         {
             planeController.SetActive(true);
             planeSprite.SetActive(false);
         }
-    
+
         // if (!isGrounded && !isDashing && !jumpLoaded)
         // {
         //     playerAnimationLink.animator.SetTrigger("fallingStart");
@@ -378,7 +437,7 @@ public class Player : MonoBehaviour
         if (moveValue.x > 0.5 && allowMovement && moveTime == 0)
         {
             moveTime = 15;
-            SoundManager.PlaySound(SoundManager.SoundType.paperSliding);
+            SoundManager.PlaySound(SoundManager.SoundType.paperSliding, 0.5f);
             playerAnimationLink.animator.SetTrigger("walkForward");
         }
 
@@ -386,7 +445,7 @@ public class Player : MonoBehaviour
         if (moveValue.x < -0.5 && allowMovement && moveTime == 0)
         {
             moveTime = 15;
-            SoundManager.PlaySound(SoundManager.SoundType.paperSliding);
+            SoundManager.PlaySound(SoundManager.SoundType.paperSliding, 0.5f);
             playerAnimationLink.animator.SetTrigger("walkBackward");
         }
 
@@ -422,6 +481,7 @@ public class Player : MonoBehaviour
     public GameObject AccordianText;
     public GameObject PaperCutText;
     public GameObject TapeText;
+    public GameObject GSMText;
 
     public Color sac1;
     public Color sac2;
@@ -445,13 +505,11 @@ public class Player : MonoBehaviour
 
     void mousePosSacText()
     {
-                Vector2 mousePos = Mouse.current.position.ReadValue();
+        Vector2 mousePos = Mouse.current.position.ReadValue();
         //top left:- accordian, topright:-dash, bottom left:- paper cut, bottom right:- tape
-        // get screen center
         float halfW = Screen.width / 2f;
         float halfH = Screen.height / 2f;
 
-        // shift coordinates relative to center
         float dx = mousePos.x - halfW;
         float dy = mousePos.y - halfH;
 
@@ -459,24 +517,24 @@ public class Player : MonoBehaviour
         DashText.GetComponent<TextMeshProUGUI>().text = "Reduce dash speed by 10%";
         AccordianText.GetComponent<TextMeshProUGUI>().text = "Reduce jump by 10%";
         PaperCutText.GetComponent<TextMeshProUGUI>().text = "Reduce cut damage by 10%";
-        TapeText.GetComponent<TextMeshProUGUI>().text = tapeUnlocked 
-    ? "Reduce duration by 10%" 
+        GSMText.GetComponent<TextMeshProUGUI>().text = (100 - (10 * (6 - totalLeftPlayerSacrifices))).ToString() + " GSM";
+        TapeText.GetComponent<TextMeshProUGUI>().text = tapeUnlocked
+    ? "Reduce duration by 10%"
     : "Locked";
 
-        // Hide all first
         DashText.SetActive(false);
         AccordianText.SetActive(false);
         PaperCutText.SetActive(false);
         TapeText.SetActive(false);
 
-        // Show one depending on quadrant
-        if (dx >= 0 && dy >= 0)         // Top Right
+        // show one depending on quadrant
+        if (dx >= 0 && dy >= 0)         // top right
             DashText.SetActive(true);
-        else if (dx < 0 && dy >= 0)     // Top Left
+        else if (dx < 0 && dy >= 0)     // top left
             AccordianText.SetActive(true);
-        else if (dx < 0 && dy < 0)      // Bottom Left
+        else if (dx < 0 && dy < 0)      // bottom left
             PaperCutText.SetActive(true);
-        else if (dx >= 0 && dy < 0)     // Bottom Right
+        else if (dx >= 0 && dy < 0)     // bottom right
             TapeText.SetActive(true);
     }
 }

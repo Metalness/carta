@@ -5,10 +5,11 @@ using Unity.VisualScripting;
 
 public static class SaveSystem
 {
+    private static string path = Application.persistentDataPath + "/CartaData.whyareyoureadingthis";
+
     public static void SaveGame(GameManager gameManager)
     {
         BinaryFormatter formatter = new BinaryFormatter();
-        string path = Application.persistentDataPath + "/gameData.whyareyoureadingthis";
 
         FileStream stream = new FileStream(path, FileMode.Create);
         PlayerData data = new PlayerData(gameManager);
@@ -17,9 +18,17 @@ public static class SaveSystem
         stream.Close();
     }
 
+    public static void EraseSave()
+    {
+        if (File.Exists(path))
+        {
+            File.Delete(path);
+            Debug.Log("Save file deleted.");
+        }
+    }
+
     public static PlayerData LoadGame()
     {
-        string path = Application.persistentDataPath + "/gameData.whyareyoureadingthis";
         if (File.Exists(path))
         {
             BinaryFormatter formatter = new BinaryFormatter();

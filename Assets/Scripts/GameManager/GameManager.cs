@@ -42,12 +42,12 @@ public class GameManager : MonoBehaviour
                 changePlayerValue(1, GameObject.FindGameObjectWithTag("Player").GetComponent<Player>().jumpForceMag);
                 changePlayerValue(2, GameObject.FindGameObjectWithTag("Player").GetComponent<Player>().paperCutDamage);
                 changePlayerValue(3, GameObject.FindGameObjectWithTag("Player").GetComponent<Player>().tapeStickDuration);
-                updateSacrificePlayer(GameObject.FindGameObjectWithTag("Player").GetComponent<Player>().totalLeftPlayerSacrifices); 
+                updateSacrificePlayer(GameObject.FindGameObjectWithTag("Player").GetComponent<Player>().totalLeftPlayerSacrifices);
             }
         }
 
     }
-    
+
 
     void OnDestroy()
     {
@@ -104,7 +104,10 @@ public class GameManager : MonoBehaviour
     {
         SaveSystem.SaveGame(this);
     }
-
+    public void EraseSave()
+    {
+        SaveSystem.EraseSave();
+    }
     public void setTimeScale(float timeScale = 1f)
     {
         Time.timeScale = timeScale;

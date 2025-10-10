@@ -10,19 +10,19 @@ public class AnimationEventSoundTrigger : MonoBehaviour
     [SerializeField] private SoundManager.SoundType soundType3;
     [SerializeField] private float vol3 = 1f;
 
-    void triggerEvent1()
+    public void triggerEvent1()
     {
         SoundManager.PlaySound(soundType1, vol1);
     }
 
-    void triggerEvent2()
+    public void triggerEvent2()
     {
-        SoundManager.PlaySound(soundType2,vol2);
+        SoundManager.PlaySound(soundType2, vol2);
     }
 
-    void triggerEvent3()
+    public void triggerEvent3()
     {
-        SoundManager.PlaySound(soundType3,vol3);
+        SoundManager.PlaySound(soundType3, vol3);
     }
-    
+
 }

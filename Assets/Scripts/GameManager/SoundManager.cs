@@ -16,7 +16,8 @@ public class SoundManager : MonoBehaviour
         pressImpact,
         staplerShoot,
         staplerJump,
-        playerStaplerHit
+        playerStaplerHit,
+        paperDash
     }
     public static SoundManager instance;
 

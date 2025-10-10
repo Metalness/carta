@@ -21,24 +21,22 @@ public class MusicManager : MonoBehaviour
 
     public static MusicManager instance;
 
-private void Awake()
-{
-    if (instance == null)
+    private void Awake()
     {
-        instance = this;
-        DontDestroyOnLoad(gameObject);
-    }
-    else
-    {
-        Destroy(gameObject); 
-        return;
-    }
+        if (instance == null)
+        {
+            instance = this;
+            DontDestroyOnLoad(gameObject);
+        }
+        else
+        {
+            Destroy(gameObject);
+            return;
+        }
 
-    musicSource = GetComponent<AudioSource>();
-    musicSource.loop = false;
-}
-
-    // --- API ---
+        musicSource = GetComponent<AudioSource>();
+        musicSource.loop = false;
+    }
 
     public void PlayImmediate(string trackName, float delay = 0f)
     {
@@ -55,24 +53,16 @@ private void Awake()
         InterruptAndPlay(CrossfadeRoutine(nextTrackName, fadeTime));
     }
 
-    /// <summary>
-    /// Plays intro -> loop once -> outro -> stop
-    /// </summary>
     public void PlayOnce(string trackName)
     {
         InterruptAndPlay(PlayOnceRoutine(trackName));
     }
 
-    /// <summary>
-    /// Stops music (plays outro if available).
-    /// </summary>
     public void StopMusic(bool playOutro = true)
     {
         if (playRoutine != null) StopCoroutine(playRoutine);
         playRoutine = StartCoroutine(StopRoutine(playOutro));
     }
-
-    // --- Internals ---
 
     private void InterruptAndPlay(IEnumerator routine)
     {
@@ -89,11 +79,11 @@ private void Awake()
 
         if (currentTrack != null && waitForOutro)
         {
-            // Wait for current loop to finish
+            // wait for current loop to finish
             while (musicSource.isPlaying && musicSource.clip == currentTrack.loop)
                 yield return null;
 
-            // Outro
+            // out
             if (currentTrack.outro != null)
             {
                 musicSource.clip = currentTrack.outro;
@@ -105,7 +95,7 @@ private void Awake()
 
         currentTrack = nextTrack;
 
-        // Intro
+        // intro
         if (currentTrack.intro != null)
         {
             musicSource.clip = currentTrack.intro;
@@ -114,7 +104,7 @@ private void Awake()
             yield return new WaitForSeconds(musicSource.clip.length);
         }
 
-        // Loop forever
+        // continous loop
         if (currentTrack.loop != null)
         {
             musicSource.clip = currentTrack.loop;
@@ -130,7 +120,7 @@ private void Awake()
 
         currentTrack = nextTrack;
 
-        // Intro
+        // intro
         if (currentTrack.intro != null)
         {
             musicSource.clip = currentTrack.intro;
@@ -139,7 +129,7 @@ private void Awake()
             yield return new WaitForSeconds(musicSource.clip.length);
         }
 
-        // Loop ONCE
+        // loop single
         if (currentTrack.loop != null)
         {
             musicSource.clip = currentTrack.loop;
@@ -148,7 +138,7 @@ private void Awake()
             yield return new WaitForSeconds(musicSource.clip.length);
         }
 
-        // Outro
+        // outro
         if (currentTrack.outro != null)
         {
             musicSource.clip = currentTrack.outro;
@@ -181,7 +171,7 @@ private void Awake()
 
         currentTrack = nextTrack;
 
-        // Intro
+        // intro
         if (currentTrack.intro != null)
         {
             musicSource.clip = currentTrack.intro;
@@ -190,7 +180,7 @@ private void Awake()
             yield return new WaitForSeconds(musicSource.clip.length);
         }
 
-        // Loop
+        // loop
         if (currentTrack.loop != null)
         {
             musicSource.clip = currentTrack.loop;

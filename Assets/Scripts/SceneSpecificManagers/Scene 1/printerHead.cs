@@ -55,7 +55,8 @@ public class printerHead : MonoBehaviour
         if (collision.CompareTag("Player"))
         {
             playerInRange = true;
-            GameObject.FindGameObjectWithTag("cinemachine").GetComponent<CinemachineBasicMultiChannelPerlin>().FrequencyGain = 1f;
+            
+            // GameObject.FindGameObjectWithTag("cinemachine").GetComponent<CinemachineBasicMultiChannelPerlin>().FrequencyGain = 1f;
 
         }
         if (collision.CompareTag("deadPaper"))
@@ -68,7 +69,7 @@ public class printerHead : MonoBehaviour
     {
         if (collision.CompareTag("Player")) {
             playerInRange = false;
-            GameObject.FindGameObjectWithTag("cinemachine").GetComponent<CinemachineBasicMultiChannelPerlin>().FrequencyGain = 1f;
+            // GameObject.FindGameObjectWithTag("cinemachine").GetComponent<CinemachineBasicMultiChannelPerlin>().FrequencyGain = 1f;
         }
     }
 
